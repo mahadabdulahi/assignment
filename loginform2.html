@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title></title>
+	<!-- <link rel="stylesheet" type="text/css" href="style2.css">
+ -->
+<style>
+	
+h1{text-align: center;
+	font-weight: bold;
+	color: white;
+	background: green;
+	border-radius: 23px;
+	padding: 13px;
+
+}
+h4{text-align: center;
+	font-weight: bold;
+	color: white;
+	background: green;
+	border-radius: 23px;
+	padding: 13px;
+	margin-top: 65px;
+	font-size: 24px;
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+section{
+	position: relative;
+	width: 90%;
+	height: 70vh;
+	margin: auto;
+	display: flex;
+	margin-top: 55px;
+
+}
+section .imgbx{
+	position: relative;
+	width: 50%;
+	height: 95%;
+	border-radius: 16px;
+}
+section .imgbx img:before{
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: linear-gradient(225deg,#e91e63,#03a9f4);
+	z-index: 1;
+	mix-blend-mode: screen;
+}
+section .imgbx img{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+section .containerbx{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	width: 50%;
+	height: 100%;
+}
+section .containerbx .formbx{
+	width: 50%;
+}
+section .containerbx .formbx h2{
+	color: #607d8b;
+	font-weight: 600;
+	font-size: 1.5em;
+	text-transform: uppercase;
+	margin-bottom: 20px;
+	border-bottom: 4 px solid #ff4584;
+	display: inline-block;
+	letter-spacing: 1px;
+
+}
+section .containerbx .formbx .inputbx{
+	margin-bottom: 20px;
+}
+section .containerbx .formbx .inputbx span{
+	font-size: 16px;
+	margin-bottom: 5px;
+	display: inline-block;
+	color: #607db8;
+	font-weight: 300;
+	font-size: 16px;
+	letter-spacing: 1px;
+}
+section .containerbx .formbx .inputbx input{
+	width: 100%;
+	padding: 10px 20px;
+	outline: none;
+	font-weight: 400;
+	border:1px solid #607d8b;
+	font-size: 16px;
+	letter-spacing: 1px;
+	color: #607d8b;
+	background: transparent;
+	border-radius: 30px;
+
+}
+
+section .containerbx .formbx .inputbx input[type="submit"]{
+	background: #ff4584;
+	color: #fff;
+	outline: none;
+	border: none;
+	font-weight: 500;
+	cursor: pointer;
+}
+section .containerbx .formbx .inputbx input[type="submit"]:hover{
+	background: green;
+}
+
+section .containerbx .formbx .remeber{
+	margin-bottom: 10px;
+	color: #607d8b;
+	font-weight: 400;
+	font-size: 14px;
+}
+section .containerbx .formbx .inputbx p{
+	color: #607d8b;
+}
+section .containerbx .formbx .inputbx p a{
+	color: #ff4584;
+}
+section .containerbx .formbx h3{
+	color: #607b8d;
+	text-align: center;
+	margin: 80px 0 10px;
+	font-weight: 500;
+}
+section .containerbx .formbx .sci{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+section .containerbx .formbx .sci li{
+	list-style: none;
+	width: 50px;
+	height: 50px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background:#607b8d; 
+	border-radius: 50%;
+	margin: 0 7px;
+	cursor: pointer;
+
+}
+section .containerbx .formbx .sci li:hover{
+	background: #ff4584;
+} 
+section .containerbx .formbx .sci li img{
+	transform: scale(0.5);
+	filter: invert(1);
+}
+
+
+@media(max-width: 768px){
+section .imgbx {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+section .containerbx {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+section .containerbx .formbx {
+    width: 100%;
+    padding: 40px;
+    background: #fff;
+    margin: 50px;
+}
+section .containerbx .formbx h3 {
+    color: #607b8d;
+    text-align: center;
+    margin: 30px;
+    font-weight: 500;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+</style>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+</head>
+<h1>WELCOME TO MY PAGE</h1>
+<body>
+	<section>
+		<div class="imgbx">
+			<img src="pexels-photo-326503.jpeg">
+		</div>
+		<div class="containerbx">
+			<div class="formbx">
+				<h2>login</h2>
+				<form>
+					<div class="inputbx">
+						<span>Username</span>
+						<input type="text" name="">
+					</div>
+
+					<div class="inputbx">
+						<span>Password</span>
+						<input type="password" name="">
+					</div>
+
+					<div class="remember">
+						<label><input type="checkbox" name="">Remember me</label>
+					</div>
+
+					<div class="inputbx">
+						
+						<input type="submit" value="Sign in"name="">
+					</div>
+
+					<div class="inputbx">
+						
+						<p>Dont't have acount? <a href="#"> Sign</a></p>
+					</div>
+
+
+				</form>
+				<h3>Login with social media</h3>
+				<ul class="sci">
+					<li><img src="145802.png"></li>
+					<li><img src="1384055.png"></li>
+					<li><img src="1384055.png"></li>
+				</ul>
+				
+			</div>
+		</div>
+	</section>
+
+<h4>&copy mahad yare</h4>
+</body>
+</html>
